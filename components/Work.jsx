@@ -17,47 +17,47 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/1.png",
+    image: "/work/w1.png",
     category: "Full-stack",
     name: "HomeService",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
+    description: "The platform for all of home service.",
     link: "https://lilac-homeservices.vercel.app",
-    github: "/",
+    github: "https://github.com/APIktn/Final-Project-Lilac-HomeService",
   },
   {
-    image: "/work/2.png",
+    image: "/work/w2.png",
+    category: "react js",
+    name: "React quiz Game",
+    description: "Test your React Skill with 15 questions. ",
+    link: "https://react-quize-game.vercel.app/",
+    github: "https://github.com/saintlaton/react-quize-game",
+  },
+  {
+    image: "/work/w3.png",
     category: "Next.js",
-    name: "NextPoerfolio",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
+    name: "IndieGamer",
+    description: "Only the best Indie game review for you. ",
+    link: "https://indie-gamer-delta.vercel.app/",
+    github: "https://github.com/saintlaton/indie-gamer",
   },
   {
-    image: "/work/3.png",
+    image: "/work/w5.png",
     category: "Full-stack",
     name: "GreatProperty",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
+    description: "Only the Great Property for you.",
+    link: "https://great-property.vercel.app/",
+    github: "https://github.com/saintlaton/great-property",
   },
   {
-    image: "/work/4.png",
-    category: "HTML/CSS",
-    name: "OmniFood",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
+    image: "/work/w5.png",
     category: "react js",
     name: "TravaLocel",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
+    link: "https://great-property.vercel.app/",
+    github: "https://github.com/saintlaton/great-property",
   },
   {
-    image: "/work/2.png",
+    image: "/work/w6.png",
     category: "Next.js/TypeScript",
     name: "SupportMe",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
@@ -73,9 +73,7 @@ const Work = () => {
         {/* text */}
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
-          <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <p className="subtitle mb-8">Discover all of my projects here.</p>
           <Link href="/projects">
             <Button>All Projects</Button>
           </Link>

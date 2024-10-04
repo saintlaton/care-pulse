@@ -144,9 +144,10 @@ const About = () => {
                       Unmatced Service Qaulity for 2 years
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialize in crafting UX and customer journeys for all
+                      I love in crafting UX and customer journeys for all
                       customers, integrating my experience to deliver dynamic
-                      websites and engaging user experiences from front to back.{" "}
+                      websites and engaging user experiences from front-end to
+                      back-end.{" "}
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -278,7 +279,7 @@ const About = () => {
                                 <div
                                   className={`font-medium ${
                                     specialNames.includes(name)
-                                      ? "font-semibold mb-4"
+                                      ? "font-semibold mb-7 p-3 w-fit bg-primary/10 text-primary rounded-lg dark:bg-secondary"
                                       : ""
                                   }`}
                                 >

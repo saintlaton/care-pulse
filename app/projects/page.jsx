@@ -6,51 +6,66 @@ import Cta from "@/components/Cta";
 
 const projectData = [
   {
-    image: "/work/1.png",
+    image: "/work/w1.png",
     category: "full-stack",
     name: "HomeService",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
+    description:
+      "Home repair and maintenance services. Users can easily book appointments, and make secure payments , include admin dashboard for managing services, technicians,  and promotion management system.",
     link: "https://lilac-homeservices.vercel.app",
-    github: "/",
+    github: "https://github.com/APIktn/Final-Project-Lilac-HomeService",
   },
   {
-    image: "/work/2.png",
+    image: "/work/w2.png",
+    category: "react js",
+    name: "React Quiz Game",
+    description:
+      "It is a React quiz using useReducer to calculate and collect points. Test yourself with 15 React quiz questions and aim for a perfect score to become a React Unstoppable !",
+    link: "https://react-quize-game.vercel.app/",
+    github: "https://github.com/saintlaton/react-quize-game",
+  },
+  {
+    image: "/work/w3.png",
     category: "next.js",
-    name: "NextPoerfolio",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
+    name: "IndieGamer",
+    description:
+      "Only the best Indie game review for you. Using Nextjs new feature, Headless CMS (Strapi) for content Managing game reviews.",
+    link: "https://indie-gamer-delta.vercel.app/",
+    github: "https://github.com/saintlaton/indie-gamer",
   },
   {
-    image: "/work/3.png",
+    image: "/work/w4.png",
+    category: "next.js",
+    name: "MakeSaint Portfolio",
+    description:
+      "My portfolio with next.js and tailwind, shadcnui, and framer motion.  ",
+    link: "/",
+    github: "https://github.com/saintlaton/saint-wongsathon",
+  },
+  {
+    image: "/work/w5.png",
     category: "full-stack",
     name: "GreatProperty",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
+    description:
+      "Property platform using react js with vite, firebase, firestore. User can login with google and sign up.  ",
+    link: "https://great-property.vercel.app/",
+    github: "https://github.com/saintlaton/great-property",
   },
   {
-    image: "/work/4.png",
-    category: "html/css",
-    name: "OmniFood",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
+    image: "/work/w6.png",
     category: "react js",
     name: "TravaLocel",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
-    github: "/",
+    description:
+      "Travalocel is a React project where users can search, filter by tags, and expand pictures.",
+    link: "https://travolacel.vercel.app/",
+    github: "https://github.com/saintlaton/travolacel",
   },
   {
-    image: "/work/2.png",
-    category: "next.js",
-    name: "SupportMe",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.  ",
-    link: "/",
+    image: "/work/w7.png",
+    category: "html/css",
+    name: "OmniFood",
+    description:
+      "OmniFood is a HTML/CSS project using Flexbox, Grid with best practice and fully responsive for any device  ",
+    link: "https://omnifood-saintwst.netlify.app/?full-name=Xczdxcsdv&email=worawut%40theiconweb.com&select-where=friend",
     github: "/",
   },
 ];
